@@ -1,6 +1,6 @@
 # ExamPrep — Smart Exam Planner
 
-<img width="1000" height="1000" alt="ExamPrep Planner Icon" src="https://github.com/user-attachments/assets/d4d587ae-93ae-4aa6-9ec7-e0c998c33169" />
+<img width="500" height="500" alt="ExamPrep Planner Icon" src="https://github.com/user-attachments/assets/d4d587ae-93ae-4aa6-9ec7-e0c998c33169" />
 
 **Author:** Md. Fuad Hasan
 
