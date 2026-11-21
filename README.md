@@ -14,4 +14,3 @@
 
 ExamPrep is a smart desktop-based academic productivity application designed to help university students manage their examination preparation efficiently. It provides features for managing exam schedules, organizing syllabus topics, creating revision plans, tracking study progress, and monitoring exam countdowns. With a modern user interface, visual progress reports, and offline support, ExamPrep aims to make academic planning easier, smarter, and more organized.
 
-**Author:** Md. Fuad Hasan
