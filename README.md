@@ -115,6 +115,63 @@ Future improvements may include AI-powered study recommendations, desktop notifi
    npm start
    ```
 
+## Project Folder Structure
+
+```text
+ExamPrep/
+│
+├── package.json
+├── main.js
+├── preload.js
+│
+├── src/
+│   ├── index.html
+│   │
+│   ├── pages/
+│   │   ├── dashboard.html
+│   │   ├── exams.html
+│   │   ├── syllabus.html
+│   │   ├── revision.html
+│   │   ├── progress.html
+│   │   └── settings.html
+│   │
+│   ├── components/
+│   │   ├── sidebar.html
+│   │   ├── header.html
+│   │   └── modals.html
+│   │
+│   ├── css/
+│   │   ├── style.css
+│   │   ├── components.css
+│   │   └── responsive.css
+│   │
+│   ├── js/
+│   │   ├── app.js
+│   │   ├── dashboard.js
+│   │   ├── exam.js
+│   │   ├── syllabus.js
+│   │   ├── revision.js
+│   │   ├── progress.js
+│   │   ├── countdown.js
+│   │   └── storage.js
+│   │
+│   ├── assets/
+│   │   ├── icons/
+│   │   ├── images/
+│   │   └── fonts/
+│   │
+│   └── data/
+│       └── sample-data.json
+│
+├── screenshots/
+│
+├── .gitignore
+├── README.md
+└── LICENSE
+```
+
+**Note:** This is the proposed project structure. Additional files and directories may be added during development.
+
 ### Build Desktop Application
 
 After configuring the build scripts in `package.json`, use the appropriate build command to generate the Windows desktop application.
