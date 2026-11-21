@@ -2,6 +2,7 @@
 
 <img width="1275" height="1233" alt="ExamPrep Planner Icon" src="https://github.com/user-attachments/assets/d4d587ae-93ae-4aa6-9ec7-e0c998c33169" />
 
+**Author:** Md. Fuad Hasan
 
 **Project Type:** Desktop-Based Student Productivity Application
 
