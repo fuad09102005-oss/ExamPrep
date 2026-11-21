@@ -1,6 +1,6 @@
 # ExamPrep — Smart Exam Planner
 
-<img width="1275" height="1233" alt="ExamPrep Planner Icon" src="https://github.com/user-attachments/assets/d4d587ae-93ae-4aa6-9ec7-e0c998c33169" />
+<img width="1000" height="1000" alt="ExamPrep Planner Icon" src="https://github.com/user-attachments/assets/d4d587ae-93ae-4aa6-9ec7-e0c998c33169" />
 
 **Author:** Md. Fuad Hasan
 
@@ -10,117 +10,8 @@
 
 **Technologies:** Electron, HTML, CSS, JavaScript, Chart.js
 
----
+## Project Summary
 
-## 1. Abstract
+ExamPrep is a smart desktop-based academic productivity application designed to help university students manage their examination preparation efficiently. It provides features for managing exam schedules, organizing syllabus topics, creating revision plans, tracking study progress, and monitoring exam countdowns. With a modern user interface, visual progress reports, and offline support, ExamPrep aims to make academic planning easier, smarter, and more organized.
 
-ExamPrep is a desktop application designed to help university students organize and manage their examination preparation. It provides tools for managing upcoming examinations, organizing syllabus topics, creating revision schedules, tracking preparation progress, and monitoring examination countdowns.
-
-The application aims to improve students' time management, academic productivity, and overall examination preparation experience.
-
-## 2. Introduction
-
-University students often face difficulties managing multiple examinations, remembering important dates, organizing course syllabuses, and maintaining regular revision schedules.
-
-ExamPrep provides a centralized platform to solve these problems. Students can manage their academic activities through a simple and modern desktop interface.
-
-The application is designed to work offline and maintain important user information through local data storage.
-
-## 3. Methodology
-
-The application follows a modular Electron-based architecture.
-
-- **Desktop Runtime:** Electron creates and manages the desktop application window.
-- **Frontend:** HTML provides the application structure, CSS handles styling, and JavaScript manages application functionality.
-- **Data Visualization:** Chart.js is used to display preparation statistics and progress reports.
-- **Local Storage:** Application data is stored locally to maintain information after restarting the application.
-
-### 3.1 System Architecture
-
-- `main.js` creates and manages the Electron application window.
-- `preload.js` provides secure communication between the desktop runtime and frontend.
-- `index.html` provides the main application interface.
-- `style.css` manages the application's visual appearance.
-- JavaScript modules manage examinations, syllabus topics, revision schedules, progress tracking, and data storage.
-
-## 4. Results and Features
-
-ExamPrep includes the following major features:
-
-- **Dashboard:** Displays upcoming examinations, completed exams, preparation statistics, and daily revision tasks.
-- **Exam Management:** Add, edit, delete, and organize examination information.
-- **Exam Countdown:** Shows the remaining days, hours, and minutes before examinations.
-- **Syllabus Management:** Organize subjects and topics and mark completed or pending topics.
-- **Revision Planner:** Create, schedule, update, and track revision tasks.
-- **Progress Tracker:** Calculate overall and subject-wise syllabus completion percentages.
-- **Progress Reports:** Display preparation statistics through graphs and charts.
-- **Theme Customization:** Supports modern dark and light themes.
-- **Offline Support:** Core application features work without an internet connection.
-
-### 4.1 Interface and User Experience
-
-The application is designed with a modern productivity-focused interface.
-
-It includes a sidebar navigation system, clean dashboard cards, organized data tables, progress indicators, graphical reports, and consistent visual elements.
-
-The interface aims to provide a smooth and user-friendly experience for university students.
-
-## 5. Discussion
-
-ExamPrep combines multiple academic management tools into a single desktop application. Instead of using separate tools to manage examination dates, syllabuses, and revision schedules, students can manage everything from one centralized platform.
-
-The use of Electron allows the application to run on desktop computers, while JavaScript handles the core application logic. Local data storage provides offline accessibility and data persistence.
-
-The modular structure also makes the application easier to maintain and expand with additional features.
-
-## 6. Conclusion
-
-ExamPrep — Smart Exam Planner is designed to make examination preparation more organized, efficient, and manageable.
-
-By combining examination management, syllabus organization, revision planning, countdown functionality, and progress tracking, the application provides a useful academic productivity solution for university students.
-
-Future improvements may include AI-powered study recommendations, desktop notifications, calendar integration, cloud synchronization, and PDF progress reports.
-
-## 7. How to Run
-
-### Requirements
-
-- Node.js
-- npm
-- Visual Studio Code (recommended)
-
-### Run Locally
-
-1. Clone the repository:
-
-   ```bash
-   git clone YOUR_GITHUB_REPOSITORY_URL
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd ExamPrep
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the application:
-
-   ```bash
-   npm start
-   ```
-
-### Build Desktop Application
-
-After configuring the build scripts in `package.json`, use the appropriate build command to generate the Windows desktop application.
-
-The generated installer will be available in the configured output directory.
-
----
-
-*ExamPrep — Plan smarter, prepare better, achieve more.*
+**Author:** Md. Fuad Hasan
