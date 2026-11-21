@@ -1,0 +1,6 @@
+{
+  "name": "ExamPrep – Smart Exam Planner",
+  "description": "A smart academic exam planner for university students to manage examinations, track live countdowns, organize syllabus topics, schedule revisions, and visualize preparation progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
